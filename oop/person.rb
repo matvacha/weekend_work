@@ -9,7 +9,7 @@ class Person
   end
 
   def full_name
-    p ""
+    p "#{@first_name}" + "#{@last_name}"
 
 
 # Driver code - don't touch anything below this line.
